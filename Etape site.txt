@@ -1,0 +1,35 @@
+myvenv
+Pour créer un projet myvenv
+python3 -m venv myvenv
+
+Pour activer myvenv
+myvenv\Scripts\activate dans c:\Projet
+
+Installer django
+pip install Django==2.0.3
+
+Création d'un nouveau projet
+django-admin startproject mysite .
+
+Création base de donnée
+python manage.py migrate
+
+Lancer le serveur
+python manage.py runserver
+Se connecter sur : http://127.0.0.1:8000/
+
+Création blog
+python manage.py startapp blog
+
+Créer un super user
+python manage.py createsuperuser
+physinain
+arnaud.suderie@gmail.com
+marie1808
+marie1808
+
+Initialisation de Git
+git init
+
+git config --global user.name "physinain"
+git config --global user.email arnaud.suderie@gmail.com
